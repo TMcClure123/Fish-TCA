@@ -1,0 +1,106 @@
+body {
+            background-image: url("https://www.thoughtco.com/thmb/jX4K_tL2tgf8Y9MpmjccQ8hQlP4=/3865x2579/filters:fill(auto,1)/GettyImages_482194715-56a1329e5f9b58b7d0bcf666.jpg");
+            background-size:cover;
+            background-repeat:no-repeat;
+            
+        }
+h1,h3 {
+    color:white;
+    
+}
+
+li {
+    color:black;
+    font-family:sans-serif;
+    
+}
+ button {
+     color:#ffffff;
+     padding:10px 25px;
+     background:transparent;
+     border:1px solid #fff;
+     border-radius:20px;
+     outline:none;
+     cursor:pointer;
+     margin:10px;
+ }
+ .puffer {
+     background-color:rgb(173,216,230, 0.5);
+     margin: 5px;
+     padding: 10px;
+     border-radius: 15px;
+ }
+ # {
+     margin:15px;
+ }
+ .sidebar {
+     width:100px;
+     height:100vh;
+     background:linear-gradient(#87ceeb, #15688a);
+     position:absolute;
+     right:0;
+     top:0;
+ }
+.content {
+    color:#ffffff;
+    position:absolute;
+    top:50%;
+    left:8%;
+    transform: translateY(-50%);
+    z-index:2;
+}
+.stars img{
+    width:5%;
+    animation: star 7s linear infinite;
+}
+.stars {
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    position:absolute;
+    bottom:0;
+}
+@keyframes star{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        
+        opacity: 1;
+    }
+    70%{
+
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+    
+}
+.stars img:nth-child(1){
+    animation-delay: 2s;
+}
+.stars img:nth-child(2){
+    animation-delay: 1s;
+}
+.stars img:nth-child(3){
+    animation-delay: 3s;
+}
+.stars img:nth-child(4){
+    animation-delay: 4.5s;
+}
+.stars img:nth-child(5){
+    animation-delay: 2s;
+}
+.stars img:nth-child(6){
+    animation-delay: 6s;
+}
+.stars img:nth-child(7){
+    animation-delay: 7s;
+}
+.sidebar img:hover {
+    filter: drop-shadow(8px 8px 10px white);
+}
